@@ -5,7 +5,7 @@ import { app } from "./core/config/express.ts";
 // @ts-ignore
 import { PORT } from "./core/config/env.ts";
 // @ts-ignore
-import { DB_CONNECTION } from "./core/config/database.ts";
+import { DB_CONNECTION_P1 } from "./core/config/database.ts";
 
 import mongoose from "mongoose";
 // const server = http.createServer(app);
@@ -22,11 +22,13 @@ async function servidor () {
 //Iniciar Servidor
 servidor();
 
+
+
 // base de datos
 async function baseDatos ()   {
 
     try {
-        await mongoose.connect( DB_CONNECTION );
+        await mongoose.connect( DB_CONNECTION_P1  );
         console.log('DB Online :D');
     } catch (error) {
         console.log(error);
