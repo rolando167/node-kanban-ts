@@ -110,3 +110,8 @@ Use this space to list resources you find helpful and would like to give credit 
 
 * [1] https://devblogs.microsoft.com/commandline/windows-command-line-unicode-and-utf-8-output-text-buffer/
 * [2] ...
+
+
+## cmd
+
+ * º ♦ → ♠ ♣ ♥ ■ ░▒▓ █
