@@ -16,3 +16,7 @@ app.use(cookieParser());
 app.use(bodyParser.json());
 
 const server = http.createServer(app);
+
+server.listen(3000, () =>{
+    console.log(`🚀 Servidor ejecutando en puerto: 3000 👍`);
+})
