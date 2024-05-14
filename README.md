@@ -89,6 +89,11 @@ Use this space to list resources you find helpful and would like to give credit 
 * [✔️] npm i -D ts-node
 * [✔️] npm i -D nodemon
 
+* [✔️] npm i express
+* [✔️] npm i body-parser
+* [✔️] npm i cookie-parser
+* [✔️] npm i compression
+
 * [✔️] npm i cors
 * [✔️] npm i jsonwebtoken
 * [✔️] npm i dotenv
