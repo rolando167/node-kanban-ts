@@ -14,7 +14,7 @@ const DB_CONNECTION_P1 =  `${DB_STRING}://${DB_HOST}:${DB_PORT}/${DB_NAME}`;
 // base de datos
 const conectarBD = async () => {
     try {
-        await mongoose.connect( DB_CONNECTION_P1);
+        await mongoose.connect(DB_CONNECTION_P1);
         console.log('█ → DB conectado exitosamente!!');
     } catch (error) {
         console.log(error);
@@ -23,6 +23,5 @@ const conectarBD = async () => {
 }
 
 export {
-
     conectarBD
 };
