@@ -94,14 +94,15 @@ Use this space to list resources you find helpful and would like to give credit 
 * [✔️] npm i cookie-parser
 * [✔️] npm i compression
 * [✔️] npm i cors
+* [✔️] npm i dotenv
 
 * [✔️] npm i -D @types/express @types/body-parser @types/cookie-parser @types/compression @types/cors
 
+* [✔️] npm i mongoose
+* [✔️] npm i -D @types/mongoose
 
 * [✔️] npm i jsonwebtoken
-* [✔️] npm i dotenv
 * [✔️] npm i bcrypt
-* [✔️] npm i mongoose
 
 💠🐵
 
