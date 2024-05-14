@@ -93,8 +93,11 @@ Use this space to list resources you find helpful and would like to give credit 
 * [✔️] npm i body-parser
 * [✔️] npm i cookie-parser
 * [✔️] npm i compression
-
 * [✔️] npm i cors
+
+* [✔️] npm i -D @types/express @types/body-parser @types/cookie-parser @types/compression @types/cors
+
+
 * [✔️] npm i jsonwebtoken
 * [✔️] npm i dotenv
 * [✔️] npm i bcrypt
