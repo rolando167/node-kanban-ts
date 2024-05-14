@@ -3,8 +3,6 @@ import bodyParser from "body-parser";
 import cookieParser from "cookie-parser";
 import compression from "compression";
 import cors from "cors";
-import dotenv from 'dotenv';
-dotenv.config();
 
 const app = express();
 
