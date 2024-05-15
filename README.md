@@ -109,7 +109,8 @@ Use this space to list resources you find helpful and would like to give credit 
 ## Referencias 
 
 * [1] https://devblogs.microsoft.com/commandline/windows-command-line-unicode-and-utf-8-output-text-buffer/
-* [2] ...
+* [2] https://github.com/JoelMndz/API-REST---AbiDev/blob/main/src/server.ts
+* [3] ...
 
 
 ## cmd
