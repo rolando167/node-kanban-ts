@@ -7,7 +7,7 @@
 
 [![Product Name Screen Shot][product-screenshot]](https://example.com)
 
-Node JS 2024 - Avances, 
+Node JS 📗 2024 - Avances, 
 
 * Crud con Mongo al 99% task testeado
 
