@@ -8,13 +8,13 @@ const DB_PORT =  process.env.DB_PORT;
 const DB_NAME =  process.env.DB_NAME;
 
 // const DB_CONNECTION =  `mongodb+srv://${DB_USER}:${DB_PASSWORD}@${DB_HOST}:${DB_PORT}/${DB_NAME}`;
-const DB_CONNECTION_P1 =  `${DB_STRING}://${DB_HOST}:${DB_PORT}/${DB_NAME}`;
+const DB_CONNECTION_URI1 =  `${DB_STRING}://${DB_HOST}:${DB_PORT}/${DB_NAME}`;
 
 
 // base de datos
 const conectarBD = async () => {
     try {
-        await mongoose.connect(DB_CONNECTION_P1);
+        await mongoose.connect(DB_CONNECTION_URI1 as string);
         console.log('█ → DB conectado exitosamente!!');
     } catch (error) {
         console.log(error);

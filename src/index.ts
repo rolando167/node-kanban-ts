@@ -15,7 +15,7 @@ import { conectarBD } from "./databases/database.ts";
 //funcion Servidor
 async function servidor () {
     await app.listen(PORT || 4000);
-    console.log(`🚀 ♦ → Servidor ejecutando en el puerto ${PORT || 4000} 👍`);
+    console.log(`♦♦ → Servidor ejecutando en el puerto ${PORT || 4000} 👍`);
 }
 
 //Iniciar Servidor
