@@ -18,6 +18,6 @@ router.get('/', function(req, res, next) {
 
 router.use('/auth', [], authRoute);
 router.use('/task', [], taskRoute);
-router.use('/users', [], userRoute);
+router.use('/user', [], userRoute);
 
 export default router;

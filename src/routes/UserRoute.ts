@@ -17,5 +17,6 @@ router.get('/', function(req, res) {
 });
 router.get('/getAll', UserController.getAllUsers);
 router.post('/create',UserController.create);
-
+router.patch('/:id',UserController.update);
+router.delete('/:id', UserController.delete);
 export default router;
