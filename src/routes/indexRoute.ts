@@ -4,7 +4,8 @@ const router = express.Router();
 import authRoute from "./AuthRoute.ts";
 // @ts-ignore
 import taskRoute from "./TaskRoute.ts";
-
+// @ts-ignore
+import userRoute from "./UserRoute.ts";
 /*=============================================================================
 |   Modulo:  Rutas Totales
 |   Fecha: 15-05-2024
@@ -17,5 +18,6 @@ router.get('/', function(req, res, next) {
 
 router.use('/auth', [], authRoute);
 router.use('/task', [], taskRoute);
+router.use('/users', [], userRoute);
 
 export default router;
