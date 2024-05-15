@@ -1,4 +1,5 @@
 import { Schema, model, models } from "mongoose";
+import { hashSync, genSaltSync, compareSync }  from 'bcrypt';
 
 const UsuarioSchema = new Schema({
 
@@ -27,7 +28,22 @@ const UsuarioSchema = new Schema({
         type: Boolean,
         default: false
     },
+    create_at: {
+        required: true,
+        type: Date
+    },
+    update_at: {
+        required: true,
+        type: Date,
+        default: Date.now
+    }
 });
+
+UsuarioSchema.methods.encryptPassword = (password: string) => hashSync(password, genSaltSync(10));
+
+UsuarioSchema.methods.validPassword = function (password: string) {
+  return compareSync(password, this.password);
+};
 
 // UsuarioSchema.method('toJSON', function() {
 
