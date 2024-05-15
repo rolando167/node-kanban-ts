@@ -2,6 +2,7 @@ import {Response, Request, NextFunction} from 'express';
 import { taskService } from '../Services';
 
 export const taskController = {
+
     getAllTask: async(req:Request, res:Response, next:NextFunction)=>{
       try {
         const data = await taskService.getAll();
@@ -12,6 +13,7 @@ export const taskController = {
         })
       }
     },
+
     create: async(req:Request, res:Response)=>{
         try {
           const data = await taskService.create(req.body);
@@ -22,6 +24,7 @@ export const taskController = {
           })
         }
     },
+
     update: async(req:Request, res:Response)=>{
         try {
           const {id} = req.params;

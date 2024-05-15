@@ -103,11 +103,13 @@ Use this space to list resources you find helpful and would like to give credit 
 
 💠🐵
 
-## Referencias 
+## Referencias
 
 * [1] https://devblogs.microsoft.com/commandline/windows-command-line-unicode-and-utf-8-output-text-buffer/
 * [2] https://github.com/JoelMndz/API-REST---AbiDev/blob/main/src/server.ts
-* [3] ...
+* [3] [...](https://samwize.com/2014/03/07/what-mongoose-never-explain-to-you-on-case-sentivity/)
+* [4] https://mongoosejs.com/docs/connections.html
+* [5]
 
 
 ## cmd
