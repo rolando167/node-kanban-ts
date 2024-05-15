@@ -1,4 +1,4 @@
-import { Schema, model } from "mongoose";
+import { Schema, model, models } from "mongoose";
 
 const taskSchema = new Schema({
     name:{
@@ -14,4 +14,4 @@ const taskSchema = new Schema({
     }
   });
 
-export const TaskModel = model('tasks', taskSchema);
+export const TaskModel = models.Tasks || model('Tasks', taskSchema); // si no existe crea la collecion en bd

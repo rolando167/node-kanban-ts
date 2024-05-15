@@ -1,4 +1,4 @@
-import { Schema, model } from "mongoose";
+import { Schema, model, models } from "mongoose";
 
 const UsuarioSchema = new Schema({
 
@@ -31,9 +31,9 @@ const UsuarioSchema = new Schema({
 
 
 UsuarioSchema.method('toJSON', function() {
-    
+
 })
 
 
 
-export const UserModel = model('tasks', UsuarioSchema);
+export const UserModel = models.Users || model('Users', UsuarioSchema);

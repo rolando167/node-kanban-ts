@@ -1,5 +1,5 @@
 import {Router} from 'express';
-import { taskController } from 'app/Controllers';
+import { taskController } from '../app/Controllers';
 const router = Router();
 
 /*=============================================================================
@@ -14,5 +14,8 @@ router.get('/', function(req, res) {
         message: '✔️ Modulo task!!'
     })
 });
+
+
+router.get('/getAll', taskController.getAllTask);
 
 export default router;

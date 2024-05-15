@@ -1,4 +1,4 @@
-import { TaskModel } from "app/domain/Models";
+import { TaskModel } from "../domain/Models";
 
 export const taskService = {
     getAll: async()=>{

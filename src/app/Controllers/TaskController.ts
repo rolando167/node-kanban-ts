@@ -1,5 +1,5 @@
 import {Response, Request, NextFunction} from 'express';
-import { taskService } from 'app/Services';
+import { taskService } from '../Services';
 
 export const taskController = {
     getAllTask: async(req:Request, res:Response, next:NextFunction)=>{
