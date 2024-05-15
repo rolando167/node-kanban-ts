@@ -7,7 +7,7 @@ export const UserController = {
         try {
           const data = await userService.getAll();
           console.log(data);
-          
+
           return res.json(data);
         } catch (error:any) {
           res.status(400).json({

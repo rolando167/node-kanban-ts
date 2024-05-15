@@ -29,11 +29,8 @@ const UsuarioSchema = new Schema({
     },
 });
 
+// UsuarioSchema.method('toJSON', function() {
 
-UsuarioSchema.method('toJSON', function() {
-
-})
-
-
+// })
 
 export const UserModel = models.Users || model('Users', UsuarioSchema);
