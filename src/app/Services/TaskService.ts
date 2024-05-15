@@ -2,18 +2,18 @@ import { TaskModel } from "../domain/Models";
 
 export const taskService = {
     getAll: async()=>{
-      return await TaskModel.find();
+        return await TaskModel.find();
     },
 
     create: async(entity: object)=>{
-      return await TaskModel.create(entity);
+        return await TaskModel.create(entity);
     },
 
     update: async(id:string, body:object)=>{
-      return await TaskModel.findByIdAndUpdate(id, body);
+        return await TaskModel.findByIdAndUpdate(id, body);
     },
 
     delete: async(id:string)=>{
-      return await TaskModel.findByIdAndDelete(id);
+        return await TaskModel.findByIdAndDelete(id);
     }
 }

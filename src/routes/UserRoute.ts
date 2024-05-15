@@ -1,5 +1,5 @@
 import {Router} from 'express';
-
+import { UserController } from '../app/Controllers/UserController';
 const router = Router();
 
 /*=============================================================================
@@ -15,5 +15,7 @@ router.get('/', function(req, res) {
         date: new Date()
     })
 });
+router.get('/getAll', UserController.getAllUsers);
+router.post('/create',UserController.create);
 
 export default router;

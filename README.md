@@ -98,6 +98,10 @@ Use this space to list resources you find helpful and would like to give credit 
 * [✔️] npm i mongoose
 * [✔️] npm i -D @types/mongoose
 
+* [✔️] npm i bcrypt
+* [✔️] npm i @types/bcrypt
+
+**
 * [✔️] npm i jsonwebtoken
 * [✔️] npm i bcrypt
 
