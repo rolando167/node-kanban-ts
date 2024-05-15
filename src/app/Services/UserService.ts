@@ -1,4 +1,5 @@
 import { UserModel } from "../domain/Models"
+import bcrypt from 'bcrypt';
 
 export const userService = {
     getAll: async()=>{
@@ -6,6 +7,10 @@ export const userService = {
     },
 
     create: async(entity: object)=>{
+        // Encriptar contraseña
+         const salt = bcrypt.genSaltSync();
+        // usuario.password = bcrypt.hashSync( password, salt );
+
         return await UserModel.create(entity);
     },
 
