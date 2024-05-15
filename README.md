@@ -109,7 +109,7 @@ Use this space to list resources you find helpful and would like to give credit 
 * [2] https://github.com/JoelMndz/API-REST---AbiDev/blob/main/src/server.ts
 * [3] [...](https://samwize.com/2014/03/07/what-mongoose-never-explain-to-you-on-case-sentivity/)
 * [4] https://mongoosejs.com/docs/connections.html
-* [5]
+* [5] YT : API REST con Nodejs - MongoDB - Typescript - Express - N capas | AbiDev
 
 
 ## cmd
