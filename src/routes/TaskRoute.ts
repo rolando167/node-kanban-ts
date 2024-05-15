@@ -17,5 +17,6 @@ router.get('/', function(req, res) {
 
 
 router.get('/getAll', taskController.getAllTask);
+router.post('/create',taskController.create);
 
 export default router;
